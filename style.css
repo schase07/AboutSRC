@@ -1,0 +1,69 @@
+
+
+body {
+	font-family: Calibri;
+	line-height: 1.6;  
+	font-size: 20px;
+	margin-top: 50px;
+}
+img{
+	width: 420px;
+	height: 500px;
+	display: flex;
+	float: left;
+}
+
+h1 {
+	font-family: Calibri;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: .8;
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+nav {
+	width: auto;
+	
+}
+
+.container {
+	width: auto;
+	height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid palevioletred;
+}
+
+a {
+  color: whitesmoke;
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: palevioletred;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: pink;
+}
+
