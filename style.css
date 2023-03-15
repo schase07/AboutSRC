@@ -87,6 +87,7 @@ box-sizing: border-box;
 
 /* Clear floats after the columns */
 .column-row:after {
+  float:right;
   content: "";
   display: table;
   clear: both;
