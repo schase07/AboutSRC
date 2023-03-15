@@ -95,8 +95,9 @@ box-sizing: border-box;
 
 /* Clear floats after the columns */
 .column-row:after {
+  display: flex;
+  flex-wrap:wrap;
   float:right;
-	flex:50%;
 	width:50%;
 	padding:10px;
   content: "";
