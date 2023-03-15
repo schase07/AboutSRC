@@ -70,7 +70,6 @@ li a:hover {
 }
 .row {  
   display: flex;
-  -ms-flex-wrap: wrap; 
   flex-wrap: wrap;
 }
 
@@ -79,6 +78,7 @@ box-sizing: border-box;
 
 /* Create two equal columns that floats next to each other */
 .column {
+  flex:50%;
   float: left;
   background-color: #ffffff;
   width: 50%;
