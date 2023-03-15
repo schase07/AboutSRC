@@ -69,7 +69,6 @@ li a:hover {
   background-color: pink;
 }
 .row {  
-  display: -ms-flexbox; 
   display: flex;
   -ms-flex-wrap: wrap; 
   flex-wrap: wrap;
@@ -78,16 +77,12 @@ li a:hover {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  -ms-flex: 30%;
-  flex: 30%;
   background-color: #f1f1f1;
   padding: 20px;
 }
 
 /* Main column */
 .main {   
-  -ms-flex: 70%; 
-  flex: 70%;
   background-color: white;
   padding: 20px;
 }
