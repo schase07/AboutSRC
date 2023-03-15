@@ -96,16 +96,7 @@ box-sizing: border-box;
 }
 
 /* Clear floats after the columns */
-.column-row {
-
-  float:right;
-	width:50%;
-	padding:10px;
-  content: "";
-  display: table;
-  clear: both;
-}
-.column-row:after {
+row:after {
 
   float:right;
 	width:50%;
