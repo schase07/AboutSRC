@@ -74,6 +74,24 @@ li a:hover {
   flex-wrap: wrap;
 }
 
+box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.column-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
