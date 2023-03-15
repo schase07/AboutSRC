@@ -85,6 +85,8 @@ box-sizing: border-box;
 
 /* Create two equal columns that floats next to each other */
 .column {
+	  display: flex;
+  flex-wrap:wrap;
   flex:50%;
   float: left;
   background-color: #ffffff;
@@ -94,9 +96,8 @@ box-sizing: border-box;
 }
 
 /* Clear floats after the columns */
-.column-row:after {
-  display: flex;
-  flex-wrap:wrap;
+.column-row {
+
   float:right;
 	width:50%;
 	padding:10px;
