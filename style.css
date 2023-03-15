@@ -77,8 +77,7 @@ li a:hover {
 }
 .row {  
   display: flex;
-  text-align: center;
-  flex-wrap: wrap;
+	
 }
 
 box-sizing: border-box;
@@ -94,7 +93,7 @@ box-sizing: border-box;
 }
 
 /* Clear floats after the columns */
-.column-row:after {
+.row:after {
   float:right;
   content: "";
   display: table;
@@ -106,6 +105,7 @@ box-sizing: border-box;
 .side {
   background-color: #f1f1f1;
   margin:10px 5px;
+	padding:0px 20px 0px 50px;
 }
 
 /* Main column */
