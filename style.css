@@ -36,7 +36,7 @@ nav {
 	height: 400px;
     margin-left: auto;
     margin-right: auto;
-    border: 10px solid palevioletred;
+    border: 10px solid ;
 }
 
 a {
@@ -48,7 +48,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: palevioletred;
+  background-color: #669999;
 }
 
 li {
